@@ -187,7 +187,9 @@ export async function POST(request) {
 
             console.log("User lookup:", user?.email);
 
-            if (user?.email) {
+            // if (user?.email) {
+            if (true) {
+
 
               // Create fresh product object for email
               const updatedProduct = {
